@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mercedes</title>
+    <link rel="icon">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pik7wgr.css">
+
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<header>
+    <div id="head">
+        <div class="container">
+            <div class="row">
+                <blockquote class="col-lg-1">
+
+                    <div id="wrap">
+                        <img id="logo" src="images/logo.noscale.cloudsvg.imageLogo.20180312094632.svg">
+                    </div>
+                </blockquote>
+                <blockquote class="col-lg-2">
+                    <p id="benz">Mercedes-Benz</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <div id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="newsclass.html">
+                        <img src="images/s-class.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p id="carname">The New S-Class.</p>
+                            <p id="details">Cares for what matters.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="eclass.html">
+                        <img src="images/e-class.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p id="carname">The New E-Class.</p>
+                            <p id="details">Made to win the day.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="g-class.html">
+                        <img src="images/g-class.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p id="carname">The New G-Class.</p>
+                            <p id="details">Stronger than time.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="gla.html">
+                        <img src="images/gla.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p id="carname">The New GLA.</p>
+                            <p id="details">Dicover the highlights of the new Mercedes-Benz GLA.</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <h1 id="welcome">Thanks for visiting showroom.</h1>
+
+    <div class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#hatchback">Hatchback</a>
+            <a href="#sedan">Sedan</a>
+            <a href="#coupe">Coupé</a>
+            <a href="#suv">SUV</a>
+            <a href="#cabriolet">Cabriolet</a>
+            <a href="#van">Vans</a>
+        </div>
+
+        <!-- Use any element to open the sidenav -->
+
+        <!-- <article class="col-lg-2 col-md-4">
+                <a href="#hatchback">
+                    <p><img src="images/Hatchlogo.png"> Hatchback</p>
+                </a>
+            </article>
+            <article class="col-lg-2 col-md-4">
+                <a href="#sedan">
+                    <p><img src="images/sedanlogo.png"> Sedan</p>
+                </a>
+            </article>
+            <article class="col-lg-2 col-md-4">
+                <a href="#coupe">
+                    <p><img src="images/coupelogo.png"> Coupés</p>
+                </a>
+            </article>
+            <article class="col-lg-2 col-md-4">
+                <a href="#suv">
+                    <p><img src="images/suvlogo.png"> SUV</p>
+                </a>
+            </article>
+            <article class="col-lg-2 col-md-4">
+                <a href="#cabriolet">
+                    <p><img src="images/carbilogo.png"> Cabriolet</p>
+                </a>
+            </article>
+            <article class="col-lg-2 col-md-4">
+                <a href="#van">
+                    <p><img src="images/van.png"> Vans</p>
+                </a>
+            </article>!-->
+
+    </div>
+
+    <div id="menu">
+
+        <div class="container-fluid">
+            <div id="button">
+                <button id="button" class="btn btn-secondary " onclick="openNav()">
+                <p id="cars">&#9776;Our Vehicles.</p>
+            </button>
+            </div>
+            <div class="row">
+
+                <h2 id="bord">All Models</h2>
+                <!--HatchBack-->
+                <div id="hatchback">
+                    <article class="col-lg-12">
+                        <p id=type><img src="images/hatchback.png"> Hatchbacks</p>
+                    </article>
+                    <blockquote class="col-lg-12">
+                        <p id="class">B-Class Hatchback</p>
+                        <p id="price">
+                            Suggested Retail Price EGP 625,000
+                        </p>
+                    </blockquote>
+                    <article class="col-lg-12">
+                        <img id="bclass" src="images/front-b-class.jpg">
+                    </article>
+                </div>
+                <div id="bord"></div>
+                <!--HatchBack-->
+
+                <!--Sedan-->
+                <div id="sedan">
+                    <article class="col-lg-12">
+                        <p id=type><img src="images/sedan.png"> Sedans</p>
+                    </article>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <blockquote class="col-lg-4">
+                        <p id="class">A-Class Sedan</p>
+                        <p id="price">
+                            Suggested Retail Price EGP 625,000
+                        </p>
+                        <img id="bclass" src="images/Asedan.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">C-Class Sedan</p>
+                        <p id="price">
+                            Suggested Retail Price EGP 625,000
+                        </p>
+                        <img id="bclass" src="images/Csedan.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">E-Class Sedan</p>
+                        <p id="price">
+                            Suggested Retail Price EGP 1,265,000
+                        </p>
+                        <img id="bclass" src="images/Esedan.png">
+                    </blockquote>
+                </div>
+                <div id="bord"></div>
+            </div>
+        </div>
+        <!--Sedan-->
+        <!--Coupes-->
+        <div id="coupe">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-12">
+                        <p id=type><img src="images/coupes.png"> Coupés</p>
+                    </article>
+                    <blockquote class="col-lg-4">
+                        <p id="class">CLA Coupé</p>
+                        <p id="price">
+                            <p id="price"> Suggested Retail Price EGP 795,000</p>
+                        </p>
+                        <img id="coupe" src="images/clacoupe.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">C-Class Coupé</p>
+                        <p id="price"> Suggested Retail Price EGP 1,235,000</p>
+                        <img src="images/c-class-coupe.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">E-Class Coupé</p>
+                        <p id="price"> Suggested Retail Price EGP 1,450,000 </p>
+                        <img src="images/e-class-coupe.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">CLS Coupé</p>
+                        <p id="price"> Suggested Retail Price EGP 1,965,000 </p>
+                        <img src="images/cls-coupe.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">GLC Coupé</p>
+                        <p id="price"> Suggested Retail Price EGP 1,595,000 </p>
+                        <img src="images/gls-coupe.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">Mercedes-AMG GT 4-Door Coupé</p>
+                        <p id="price"> Suggested Retail Price EGP 2,790,000 </p>
+                        <img src="images/amg-coupe.png">
+                    </blockquote>
+                </div>
+                <div id="bord"></div>
+            </div>
+        </div>
+        <!--Coupes-->
+        <!--SUV-->
+        <div id="suv">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-12">
+                        <p id=type><img src="images/suv.png"> SUV</p>
+                    </article>
+                    <blockquote class="col-lg-4">
+                        <p id="class">G-Class</p>
+                        <p id="price"> Suggested Retail Price EGP 3,500,000 </p>
+                        <img src="images/g-class.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">GLA</p>
+                        <p id="price"> Suggested Retail Price EGP 835,000 </p>
+                        <a href="gla.html"><img src="images/GLA.png"></a>
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">GLC</p>
+                        <p id="price"> Suggested Retail Price EGP 1,199,000 </p>
+                        <img src="images/GLC.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">GLE</p>
+                        <p id="price"> Suggested Retail Price EGP 1,905,000 </p>
+                        <img src="images/GLE.png">
+                    </blockquote>
+                    <div id="bord"></div>
+                </div>
+            </div>
+        </div>
+        <!--SUV-->
+        <!--Cabriolet-->
+        <div id="cabriolet">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-12">
+                        <p id=type><img src="images/cabriolet.png"> Cabriolet</p>
+                    </article>
+                    <blockquote class="col-lg-4">
+                        <p id="class">C-Class Cabriolet</p>
+                        <p id="price"> Suggested Retail Price EGP 1,275,000 </p>
+                        <img src="images/c-cabriolet.png">
+                    </blockquote>
+                    <blockquote class="col-lg-4">
+                        <p id="class">E-Class Cabriolet</p>
+                        <p id="price"> Suggested Retail Price EGP 1,570,000 </p>
+                        <img src="images/e-cabriolet.png">
+                    </blockquote>
+                </div>
+                <div id="bord"></div>
+
+                <!--Cabriolet-->
+                <!--Vans-->
+                <div id="van">
+                    <div class="container">
+                        <div class="row">
+                            <article class="col-lg-12">
+                                <p id=type><img src="images/vclass.png"> Vans</p>
+                            </article>
+                            <blockquote id="van" class="col-lg-4">
+                                <p id="class">V-class</p>
+                                <p id="price"> Suggested Retail Price EGP 1,449,000 </p>
+                                <img src="images/v-class.png">
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!--Vans-->
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="container">
+            <div class="row">
+
+                <span class="col-lg-8">
+                    <p id="textfoot">© Mercedes-Benz Egypt S.A.E. 2021</p>
+                </span>
+                <span class="col-lg-1">
+            <a href="https://www.facebook.com/MercedesBenzEgypt/" target="blank" ><img src="images/facebook-logo-png-18.png"> </a>
+                </span>
+                <span class="col-lg-1">
+            <a href="https://twitter.com/mercedesbenzeg" target="blank"><img src="images/twitter-icon-74.png"></a>
+                </span>
+                <span class="col-lg-1">
+            <a href="https://www.youtube.com/channel/UCv-gQGAig5TYH3KWDasXu7g" target="blank"><img src="images/youtube-logo-png-3566.png"> </a>
+                </span>
+                <span class="col-lg-1">
+                  <a href="https://www.instagram.com/mercedesbenz_egypt/" target="blank"><img src="images/instagram-logo-png-2426.png"></a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <p id="foot">Copyright<sup>©</sup> 2021 Mercedes-Benz. All rights reserved <sup>  &#174; </sup>.
+
+    </p>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>

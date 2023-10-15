@@ -1,0 +1,91 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wrap {
+    margin-top: 15px;
+}
+
+#benz {
+    margin-top: 40px;
+    color: white;
+    font-weight: 100;
+    font-family: noto-serif, serif;
+}
+
+#head {
+    border-bottom: 0.1px solid rgb(78, 78, 78);
+}
+
+blockquote {
+    text-align: center;
+}
+
+#banner {
+    background-image: url(../images/s-class/sclassper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#eclassbanner {
+    background-image: url(../images/eclass/engine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#glabanner {
+    background-image: url(../images/gla/mercedes-benz-gla-engine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article {
+    min-height: 470px;
+}
+
+#headbanner {
+    position: relative;
+    top: 130px;
+    margin-left: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: noto-serif, serif;
+}
+
+#bord {
+    border-bottom: 0.1px solid rgb(78, 78, 78);
+}
+
+#performance {
+    padding-top: 50px;
+}
+
+#overview {
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: noto-serif, serif;
+}
+
+#first {
+    text-align: left;
+    color: white;
+    font-weight: 700;
+}
+
+#second {
+    text-align: left;
+    color: rgb(168, 167, 167);
+    font-weight: 400;
+}
+
+#foot {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: noto-serif, serif;
+    font-size: 1.2em;
+}

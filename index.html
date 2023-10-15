@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mercedes</title>
+    <link rel="icon" type="image/png" href="images/mercedes-benzlogo.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pik7wgr.css">
+    <style>
+        body {
+            background-image: url(../Mercedes/images/download.jpg);
+        }
+    </style>
+</head>
+<header></header>
+
+<body>
+
+    <div class="container">
+        <p id="title">Welcome To Mercedes-Benz</p>
+        <p id="title1">The best or nothing</p>
+        <div id="bt">
+            <button onclick='redirect_Page(this)' onmousedown="engine.play()" type="button" class="btn btn-outline-light">Start Engine</button>
+        </div>
+        <div id="cars"></div>
+    </div>
+    <script>
+        var engine = new Audio();
+        engine.src = "images/sound.mp3"
+    </script>
+    <script>
+        let redirect_Page = () => {
+            let tID = setTimeout(function() {
+                window.location.href = "file:///E:/web/Mercedes/home.html";
+                window.clearTimeout(tID); // clear time out.
+            }, 7000);
+        }
+    </script>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+</body>
+
+
+</html>

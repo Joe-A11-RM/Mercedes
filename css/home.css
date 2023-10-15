@@ -1,0 +1,228 @@
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    blockquote {
+        text-align: center;
+    }
+    
+    #wrap {
+        margin-top: 15px;
+    }
+    
+    #benz {
+        margin-top: 40px;
+        color: white;
+        font-weight: 100;
+        font-family: noto-serif, serif;
+    }
+    
+    #head {
+        border-bottom: 0.1px solid rgb(78, 78, 78);
+    }
+    
+    #carousel {
+        margin-top: 10px;
+    }
+    /*.carousel-caption { 
+    position: relative;
+    top: 0;
+    animation: m 1.5s forwards;
+    animation-delay: 1s;
+    font-size: 0em;
+}
+
+@keyframes m {
+    from {
+        top: 0px;
+    }
+    to {
+        font-size: 1.2em;
+        font-family: noto-serif, serif;
+        top: 5px;
+    }
+} */
+    
+    .carousel-caption {
+        position: relative;
+        top: 0;
+        animation: word 1s forwards;
+        animation-delay: 1s;
+        font-size: 0em;
+    }
+    
+    @keyframes word {
+        0% {
+            font-size: 0.5em;
+            color: white;
+            letter-spacing: 40px;
+            margin-bottom: -40px;
+        }
+        50% {
+            font-size: 1.2em;
+            color: white;
+            letter-spacing: 35px;
+            margin-bottom: -40px;
+        }
+        85% {
+            font-size: 1.3em;
+            color: white;
+            letter-spacing: 25px;
+            margin-bottom: -40px;
+        }
+        100% {
+            font-size: 1.4em;
+            color: white;
+            letter-spacing: 15px;
+            margin-bottom: -40px;
+        }
+    }
+    
+    #carname {
+        color: white;
+        font-weight: bold;
+        font-family: noto-serif, serif;
+    }
+    
+    #details {
+        color: white;
+        font-size: 1em;
+    }
+    
+    #welcome {
+        border-top: 0.1px solid rgb(78, 78, 78);
+        margin-top: 10px;
+        text-align: center;
+        color: white;
+        font-family: noto-serif, serif;
+    }
+    
+    #cars {
+        color: white;
+        font-family: noto-serif, serif;
+        font-size: 1.1em;
+    }
+    
+    #menu {
+        background-color: white;
+    }
+    
+    h2 {
+        padding-top: 15px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    article {
+        text-align: center;
+    }
+    
+    #bord {
+        border-bottom: 0.1px solid rgb(78, 78, 78);
+    }
+    
+    #type {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    
+    #class {
+        padding-top: 7px;
+        font-family: noto-serif, serif;
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    
+    #price {
+        margin-top: -10px;
+        color: rgb(114, 114, 114);
+    }
+    
+    #bclass {
+        margin-top: -20px;
+    }
+    
+    body a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    body a:hover {
+        color: white;
+    }
+    
+    #bottom {
+        border-top: 5px solid rgb(78, 78, 78);
+        padding-top: 30px;
+    }
+    
+    #textfoot {
+        height: 50px;
+        color: white;
+        font-family: noto-serif, serif;
+        font-size: 1.2em;
+    }
+    
+    #foot {
+        color: white;
+        text-align: center;
+        font-family: noto-serif, serif;
+        font-size: 1.2em;
+    }
+    
+    #button {
+        padding-top: 15px;
+        text-align: left;
+        max-height: 50px;
+        position: relative;
+    }
+    
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+        }
+    }

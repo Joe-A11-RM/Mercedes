@@ -1,0 +1,132 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wrap {
+    margin-top: 15px;
+}
+
+#benz {
+    margin-top: 40px;
+    color: white;
+    font-weight: 100;
+    font-family: noto-serif, serif;
+}
+
+#head {
+    border-bottom: 0.1px solid rgb(78, 78, 78);
+}
+
+blockquote {
+    text-align: center;
+}
+
+article {
+    min-height: 470px;
+}
+
+#banner {
+    background-image: url(../images/s-class/Mercedes-Benz-S-Class-1200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#eclassbanner {
+    background-image: url(../images/eclass/eclassbanner.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#glabanner {
+    background-image: url(../images/gla/gla.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.349);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    color: white;
+}
+
+#headbanner {
+    position: relative;
+    top: 120px;
+    margin-left: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: noto-serif, serif;
+}
+
+#pos {
+    position: fixed;
+}
+
+iframe {
+    padding-bottom: 25px;
+}
+
+span:hover {
+    color: rgba(95, 97, 224, 0.575);
+}
+
+#bord {
+    border-bottom: 0.1px solid rgb(78, 78, 78);
+}
+
+#highlights {
+    padding-top: 70px;
+}
+
+#vehiclehiglights {
+    text-align: left;
+    color: white;
+    font-size: 1.3em;
+}
+
+#pad {
+    padding-top: 25px;
+}
+
+h2 {
+    font-family: noto-serif, serif;
+    font-weight: 150;
+    text-align: left;
+    color: white;
+}
+
+#details {
+    color: white;
+    text-align: left;
+    width: 65%;
+}
+
+#describe {
+    padding-top: 10px;
+    color: white;
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#foot {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: noto-serif, serif;
+    font-size: 1.2em;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+body a:hover {
+    color: rgba(95, 97, 224, 0.575);
+}

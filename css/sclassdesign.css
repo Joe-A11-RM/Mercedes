@@ -1,0 +1,275 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wrap {
+    margin-top: 15px;
+}
+
+#benz {
+    margin-top: 40px;
+    color: white;
+    font-weight: 100;
+    font-family: noto-serif, serif;
+}
+
+#head {
+    border-bottom: 0.1px solid rgb(78, 78, 78);
+}
+
+blockquote {
+    text-align: center;
+}
+
+article {
+    min-height: 470px;
+}
+
+#banner {
+    background-image: url(../images/s-class/S-classdesign.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#eclassbanner {
+    background-image: url(../images/eclass/eclassdesign.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#glabanner {
+    background-image: url(../images/gla/Mercedes\ GLA\ SUV\ 2020-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#comfortbanner {
+    background-image: url(../images/s-class/saloon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#glacomfortbanner {
+    background-image: url(../images/gla/glacomfort.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#safetybanner {
+    background-image: url(../images/s-class/sclasssafety.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#glasafetybanner {
+    background-image: url(../images/gla/glasafety.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.349);
+    position: relative;
+    top: 25px;
+    text-align: center;
+    color: white;
+}
+
+#headbanner {
+    position: relative;
+    top: 120px;
+    margin-left: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: noto-serif, serif;
+}
+
+#pos {
+    position: fixed;
+}
+
+iframe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+span:hover {
+    color: rgba(95, 97, 224, 0.575);
+}
+
+#bord {
+    border-bottom: 0.1px solid rgb(78, 78, 78);
+}
+
+#highlights {
+    padding-top: 70px;
+}
+
+#vehiclehiglights {
+    text-align: left;
+    color: white;
+    font-size: 1.3em;
+}
+
+#comfortoption {
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: noto-serif, serif;
+    font-weight: 150;
+    text-align: left;
+    color: white;
+}
+
+#details {
+    color: white;
+    text-align: left;
+    width: 65%;
+}
+
+#describe {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#foot {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: noto-serif, serif;
+    font-size: 1.2em;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+body a:hover {
+    color: rgba(82, 84, 194, 0.74);
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+#explain {
+    font-size: 0;
+    color: white;
+}
+
+.quote {
+    min-height: 30px;
+    background-color: rgba(83, 81, 81, 0.459);
+    padding: 10px 10px 10px 10px;
+}
+
+.quote:hover #explain {
+    color: white;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+
+/* The Overlay (background) */
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+#layer {
+    position: relative;
+    top: 25%;
+}
+
+#bu {
+    padding-top: 15px;
+}
+
+button {
+    width: 100%;
+}
+
+
+/* The navigation links inside the overlay */
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    /* Display block instead of inline */
+    transition: 0.3s;
+    /* Transition effects on hover (color) */
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+/* Position the close button (top right corner) */
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-weight: 1000;
+}
+
+#explaination {
+    color: white;
+    text-align: justify;
+}
